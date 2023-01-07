@@ -1,5 +1,5 @@
 import { toast } from 'react-toastify';
-import { useEffect, useMemo, useState } from 'react';
+import { useMemo, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { contactsOperations, contactsSelectors } from 'redux/contacts';
 
@@ -8,9 +8,9 @@ export const useContacts = () => {
   const contacts = useSelector(contactsSelectors.getContacts);
   const dispatch = useDispatch();
 
-  useEffect(() => {
-    dispatch(contactsOperations.fetch());
-  }, [dispatch]);
+  // useEffect(() => {
+  //   dispatch(contactsOperations.fetch());
+  // }, [dispatch]);
 
   const addContact = contact => {
     const { name } = contact;
