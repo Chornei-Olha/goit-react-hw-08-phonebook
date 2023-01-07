@@ -18,7 +18,7 @@ export const Name = styled.h4`
 `;
 
 export const Phone = styled.p`
-  color: 	orange;
+  color: 	seagreen;
   font-weight: 500;
   margin-top: 4px;
 
@@ -36,7 +36,7 @@ export const Button = styled.button`
 
   &:hover,
   &:focus {
-    color: 	orange;
+    color: 	seagreen;
     transition: color 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
   }
 `;

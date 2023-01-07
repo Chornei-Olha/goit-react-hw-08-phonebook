@@ -28,7 +28,7 @@ const style = {
     tablet: 420,
   },
   bgcolor: 'background.paper',
-  border: '2px solid 	orange',
+  border: '2px solid 	seagreen',
   borderRadius: 2,
   boxShadow: 24,
 };

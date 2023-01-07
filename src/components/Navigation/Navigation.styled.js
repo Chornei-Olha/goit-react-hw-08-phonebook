@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 import { FaAddressBook } from 'react-icons/fa';
 
 export const Logo = styled(FaAddressBook)`
-  color: 	orange;
+  color: 	seagreen;
   width: 30px;
   height: 30px;
 `;
@@ -18,7 +18,7 @@ export const NavigationLink = styled(NavLink)`
   font-size: 20px;
 
   &.active {
-    color: 	orange;
+    color: 	green;
   }
 
   & + & {
